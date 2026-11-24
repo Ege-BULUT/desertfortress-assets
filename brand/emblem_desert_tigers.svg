@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1024" height="1024">
+<defs><clipPath id="shieldClip"><path d="M50 4 92 17v35c0 23-18 37-42 45C26 89 8 75 8 52V17Z"/></clipPath></defs>
+    <path d="M50 4 92 17v35c0 23-18 37-42 45C26 89 8 75 8 52V17Z" fill="#2a1d10" stroke="#e6b873" stroke-width="3"/>
+    <path d="M50 11 85 22v30c0 19-15 31-35 38C30 83 15 71 15 52V22Z" fill="none" stroke="#c8582a" stroke-width="1.6"/>
+    <g clip-path="url(#shieldClip)">
+      <path d="M22 20 36 29 25 41Z M78 20 64 29 75 41Z" fill="#d9a55c"/>
+      <path d="M26 24 33 29 27 35Z M74 24 67 29 73 35Z" fill="#2a1d10"/>
+      <path d="M50 22 66 28 77 43 73 62 61 75 50 81 39 75 27 62 23 43 34 28Z" fill="#e3b46c"/>
+      <path d="M50 26 55 35 50 45 45 35Z M37 31 47 39 39 42Z M63 31 53 39 61 42Z M24 47 38 52 25 55Z M76 47 62 52 75 55Z M28 59 40 61 31 66Z M72 59 60 61 69 66Z" fill="#2a1d10"/>
+      <path d="M33 47 46 50 43 55 35 52Z M67 47 54 50 57 55 65 52Z" fill="#f4f8fb"/>
+      <path d="M39 63 50 59 61 63 57 72 50 77 43 72Z" fill="#f4f8fb"/>
+      <path d="M45 60h10l-5 6Z" fill="#2a1d10"/>
+      <path d="M44 70 50 67 56 70" fill="none" stroke="#2a1d10" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </svg>
