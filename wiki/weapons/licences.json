@@ -1,0 +1,755 @@
+{
+ "guns": {
+  "m4a1": {
+   "title": "Assault rifle M4A1",
+   "author": "bobeer",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/assault-rifle-m4a1-1b858701dd7142d9b82bbe3fd121a97b",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m4a1/SK_m4a1",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/m4a1.glb"
+  },
+  "ak47": {
+   "title": "AKM",
+   "author": "mcmxcg",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/akm-93b9714e15a14dba849d2912e4b8e39d",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/ak47/SK_ak47",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/ak47.glb"
+  },
+  "g36": {
+   "title": "H&K G36C SMG",
+   "author": "itsmeskylar",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/h-k-g36c-smg-c47b2d33ed4d4627bc681f5c3f58e272",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/g36/SK_g36",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/g36.glb"
+  },
+  "galil": {
+   "title": "IMI Galil weapon",
+   "author": "m1lotor",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/imi-galil-weapon-c04464da23af47458533a8a8c74f4b4b",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/galil/SK_galil",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/galil.glb"
+  },
+  "tar21": {
+   "title": "TAR - 21 (Tavor). Black and White.",
+   "author": "nik_vega",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/tar-21-tavor-black-and-white-40dc15941e0b456692c83a97bfcd2474",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/tar21/SK_tar21",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/tar21.glb"
+  },
+  "m14": {
+   "title": "M14",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m14/SK_m14",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/m14.glb"
+  },
+  "uzi": {
+   "title": "UZI",
+   "author": "Gintoki1234",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/uzi-6d997976cf5845b48c6e8b7495b3551b",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/uzi/SK_uzi",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/uzi.glb"
+  },
+  "spectre": {
+   "title": "Sites Spectre M4",
+   "author": "ryukotsuki",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/sites-spectre-m4-54109f614694426f92517f3900a10f0d",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/spectre/SK_spectre",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/spectre.glb"
+  },
+  "p90": {
+   "title": "P90",
+   "author": "Rotuma",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/p90-82d8b9f1e02b48f9b012698dcfa3352b",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/p90/SK_p90",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/p90.glb"
+  },
+  "mp5": {
+   "title": "MP5",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/mp5/SK_mp5",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/mp5.glb"
+  },
+  "mp7": {
+   "title": "H&K MP7 A1",
+   "author": "Trinitite_Studio",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/h-k-mp7-a1-27cd4b48fb14451c86adad4c559082d6",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/mp7/SK_mp7",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/mp7.glb"
+  },
+  "ump45": {
+   "title": "UMP_45mm",
+   "author": "TORI106",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/ump-45mm-9f1c89e7d4764ff4bceffb6c67839c7a",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/ump45/SK_ump45",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/ump45.glb"
+  },
+  "mac10": {
+   "title": "Mac10",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/mac10/SK_mac10",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/mac10.glb"
+  },
+  "pps43": {
+   "title": "PPS-43 GAME READY",
+   "author": "Oxygen",
+   "licence": "CC0 1.0",
+   "url": "https://oxygen3d.itch.io/pps-43-game-ready",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/pps43/SK_pps43",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/pps43.glb"
+  },
+  "ppsh41": {
+   "title": "PPSH-41 GAME READY",
+   "author": "Oxygen",
+   "licence": "CC0 1.0",
+   "url": "https://oxygen3d.itch.io/ppsh-41-game-ready",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/ppsh41/SK_ppsh41",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/ppsh41.glb"
+  },
+  "bordyukov": {
+   "title": "Bordyukov SMG GAME READY",
+   "author": "Oxygen",
+   "licence": "CC0 1.0",
+   "url": "https://oxygen3d.itch.io/bordyukov-smg-game-ready",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/bordyukov/SK_bordyukov",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/bordyukov.glb"
+  },
+  "m1014": {
+   "title": "FPS Benelli M4 Animations",
+   "author": "ccransh",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/fps-benelli-m4-animations-225a62190f6043ca975eaa2798ab7e2c",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m1014/SK_m1014",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/m1014.glb"
+  },
+  "psg1": {
+   "title": "Low-Poly HK PSG 1",
+   "author": "TastyTony",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/low-poly-hk-psg-1-bfdb981e99614b0495e1252190264120",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/psg1/SK_psg1",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/psg1.glb"
+  },
+  "m82": {
+   "title": "Barrett-M82 (Optimized)",
+   "author": "Gintoki1234",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/barrett-m82-optimized-af16e974a47e463989311bcda6f51f87",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m82/SK_m82",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/m82.glb"
+  },
+  "m24": {
+   "title": "M700 (the M24)",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m24/SK_m24",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/m24.glb"
+  },
+  "lever": {
+   "title": "LeverAction",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/lever/SK_lever",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/lever.glb"
+  },
+  "mosin": {
+   "title": "Mosin Nagant M91",
+   "author": "Doinkoloink",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/mosin-nagant-m91-55c00242c4024307a761a89167e39a7c",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/mosin/SK_mosin",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/mosin.glb"
+  },
+  "m1911": {
+   "title": "1911",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m1911/SK_m1911",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/m1911.glb"
+  },
+  "tec9": {
+   "title": "Tec9",
+   "author": "Stein Games",
+   "licence": "CC0 1.0",
+   "url": "https://stein-indie.itch.io/classic-weapons-pack",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/tec9/SK_tec9",
+   "allowed_3d": true,
+   "credit_required": false,
+   "glb": "models/tec9.glb"
+  },
+  "glock17": {
+   "title": "9mm Pistol",
+   "author": "TORI106",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/9mm-pistol-43bc09f5aace4346a8a2b6e1580fc03f",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/glock17/SK_glock17",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/glock17.glb"
+  },
+  "m9": {
+   "title": "Beretta Pistol FPS ANIMATION",
+   "author": "Alexander_Ovelar",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/beretta-pistol-fps-animation-0313ab1888994c14abeaf444d7af3217",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m9/SK_m9",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/m9.glb"
+  },
+  "dual_beretta": {
+   "title": "Beretta Pistol FPS ANIMATION",
+   "author": "Alexander_Ovelar",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/beretta-pistol-fps-animation-0313ab1888994c14abeaf444d7af3217",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/m9/SK_m9",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/dual_beretta.glb",
+   "note": "two copies of the M9 model (the game shows one M9 in first person)"
+  },
+  "revolver": {
+   "title": "Animated Magnum",
+   "author": "teenjust500",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/animated-magnum-643b9d61ff49407b84ead78eaf815252",
+   "textures": "our CC0 gun material library (ambientCG sets, see below); no web-game textures",
+   "geometry": "the web prototype's model geometry (converted, rescaled, parts cut for the game)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/revolver/SK_revolver",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/revolver.glb"
+  },
+  "ssg69": {
+   "title": "Kar98k Free Model",
+   "author": "Danya",
+   "author_url": "https://sketchfab.com/dsamuta",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/kar98k-free-model-e88c90c8e203401fa28e8f4ef03e657f",
+   "note": "stand-in model for the SSG 69 (a Kar98k), our CC0 materials",
+   "textures": "our CC0 gun material library (ambientCG sets)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game (stand-in)",
+   "ue_mesh": "/Game/TR/Ext/WebGuns/ssg69/SK_ssg69",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/ssg69.glb"
+  },
+  "hk416": {
+   "title": "HK 416 A7 (free download)",
+   "author": "r4m",
+   "author_url": "https://sketchfab.com/r4m",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/hk-416-a7-free-download-a16768f0ffa24737a4fe324a411cfbd9",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/HK416/SK_HK416",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/hk416.glb"
+  },
+  "aug_a1": {
+   "title": "Steyr Aug",
+   "author": "quick_loop",
+   "author_url": "https://sketchfab.com/so_O",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/steyr-aug-5d6189495ac4406f82eca848bbb6fa95",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/AUG/SK_AUG",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/aug_a1.glb",
+   "note": "AUG A3 and AUG HBAR share one model in the game"
+  },
+  "aug_hbar": {
+   "title": "Steyr Aug",
+   "author": "quick_loop",
+   "author_url": "https://sketchfab.com/so_O",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/steyr-aug-5d6189495ac4406f82eca848bbb6fa95",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/AUG/SK_AUG",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/aug_hbar.glb",
+   "note": "AUG A3 and AUG HBAR share one model in the game"
+  },
+  "famas": {
+   "title": "FAMAS",
+   "author": "Frostoise",
+   "author_url": "https://sketchfab.com/Frostoise",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/famas-7d35e14ad8874d148ce9cc46e5765a6b",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/FAMAS/SK_FAMAS",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/famas.glb"
+  },
+  "awm": {
+   "title": "AWM",
+   "author": "ErhanMatur",
+   "author_url": "https://sketchfab.com/erhanmatur",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/awm-bacc05ad5c074c9daa3aa7ca02766a6c",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/AWM/SK_AWM",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/awm.glb"
+  },
+  "deagle": {
+   "title": "Desert Eagle",
+   "author": "ELIZION",
+   "author_url": "https://sketchfab.com/ELIZION",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/desert-eagle-cabde59f5cf24effaf80536e35d04e95",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/DesertEagle/SK_DesertEagle",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/deagle.glb"
+  },
+  "dp27": {
+   "title": "The Degtyaryov machine gun (DP-27/DP-28)",
+   "author": "TheDevilsEye",
+   "author_url": "https://sketchfab.com/TheDevilsEye",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/the-degtyaryov-machine-gun-dp-27dp-28-a5a4721195964569bba28925769b2569",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/DP27/SK_DP27",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/dp27.glb"
+  },
+  "scarl": {
+   "title": "SCAR L",
+   "author": "Daniel Abeleira",
+   "author_url": "https://sketchfab.com/DelthorGames",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/scar-l-48141819356643559761da09dd9e7841",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/SCAR_L/SK_SCAR_L",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/scarl.glb"
+  },
+  "svd": {
+   "title": "SVD (Dragunov) *Updated*",
+   "author": "WillyG99",
+   "author_url": "https://sketchfab.com/WillyG99",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/svd-dragunov-updated-d4a9412275aa4974b146ad8ce9dc5fc2",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/SVD/SK_SVD",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/svd.glb"
+  },
+  "vector": {
+   "title": "Kriss Vector Animated( Free)",
+   "author": "BarcodeGames",
+   "author_url": "https://sketchfab.com/barcodegames",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/kriss-vector-animated-free-54530c888cfd4ae7aab3c3852b229c7e",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/Vector/SK_Vector",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/vector.glb"
+  },
+  "mp40": {
+   "title": "MP 40 - WW2 Submachine Gun",
+   "author": "Moony_State",
+   "author_url": "https://sketchfab.com/Moony_State",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/mp-40-ww2-submachine-gun-7ec7e1f9656e4319b8edae0d785699ad",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/MP40/SK_MP40",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/mp40.glb"
+  },
+  "m16a4": {
+   "title": "M16 A4",
+   "author": "Gintoki1234",
+   "author_url": "https://sketchfab.com/Gintoki1234",
+   "licence": "CC-BY 4.0",
+   "url": "https://sketchfab.com/3d-models/m16-a4-e6e96d6214c24134999691d22933c5c7",
+   "textures": "the model's own textures (same licence)",
+   "geometry": "Sketchfab model, rescaled and re-rigged for the game",
+   "ue_mesh": "/Game/TR/Ext/Sketchfab/Weapons/M16A4/SK_M16A4",
+   "allowed_3d": true,
+   "credit_required": true,
+   "glb": "models/m16a4.glb"
+  }
+ },
+ "attachments": {
+  "reddot": {
+   "in_game_model": {
+    "mesh": "SM_T4_Sight",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_reddot.glb",
+    "title": "Aim Point Pro Red Dot Sight (no trade marks)",
+    "author": "Armored Wave",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/aim-point-pro-red-dot-sight-no-trade-marks-ba4d5b384e3a4f7f9706fe23e727282d",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "reflex": {
+   "in_game_model": {
+    "mesh": "SM_T4_Sight",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_reflex.glb",
+    "title": "ZA Mini - Red dot sight",
+    "author": "Daniel Abeleira (DelthorGames)",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/za-mini-red-dot-sight-5ad826e38b154c41a1528e4449c79f45",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "holo": {
+   "in_game_model": {
+    "mesh": "SM_T4_Sight",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_holo.glb",
+    "title": "EoTech EXPS3-0 Holographic Weapon Sight Lowpoly",
+    "author": "valterjherson1",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/eotech-exps3-0-holographic-weapon-sight-lowpoly-45e4fcdfb1b34756ab9e866564a12f66",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "prism": {
+   "in_game_model": {
+    "mesh": "SM_Scope_25x56_Y",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_prism.glb",
+    "title": "Vortex Optics Spitfire 3x Prism",
+    "author": "dries.puype",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/vortex-optics-spitfire-3x-prism-dd953cb17e2d4c8bad2c7af561c4dbce",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "s5": {
+   "in_game_model": {
+    "mesh": "SM_Scope_25x56_X",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_s5.glb",
+    "title": "Night-Force Scope",
+    "author": "Steven Janes (Ebethrone)",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/night-force-scope-8348839d996f4cf9a7443f92b92d10c8",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "s8": {
+   "in_game_model": {
+    "mesh": "SM_Scope_25x56_X",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_s8.glb",
+    "title": "Sniper Scope Rework [2K/1K]",
+    "author": "Lyndschoko",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/sniper-scope-rework-2k1k-001a39a65b53467e9e337c8e2a411e62",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "s12": {
+   "in_game_model": {
+    "mesh": "SM_Scope_25x56_X",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_s12.glb",
+    "title": "Sniper Scope NightForce_V2",
+    "author": "XarMeX",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/sniper-scope-nightforce-v2-907abe0a96e243b3b83b6abe47f681b7",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "supp1": {
+   "in_game_model": {
+    "mesh": "SM_Suppressor5",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_supp1.glb",
+    "title": "Silencer 7.62",
+    "author": "Ahmed Ishaq Alizai (HardWireStudio)",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/silencer-762-40871408887441edb2402caf6246b786",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "supp2": {
+   "in_game_model": {
+    "mesh": "SM_Suppressor5",
+    "pack": "FPS Weapon Bundle (Fab)",
+    "author": "see the Fab listing",
+    "licence": "Fab Standard License",
+    "url": "https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5",
+    "allowed_3d": false
+   },
+   "picture": "render of the in-game model (renders are allowed)",
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_supp2.glb",
+    "title": "Angstadt Arms Prophet Suppressor Lowpoly",
+    "author": "valterjherson1",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/angstadt-arms-prophet-suppressor-lowpoly-057037d1d37f46f986c6cc6264c242c9",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "hider": {
+   "in_game_model": null,
+   "picture": "illustration: the game shows no model for this item; rendered with SM_FlashHider_556 from \"low-poly Muzzle Device Set\" by D_U (CC-BY 4.0, https://sketchfab.com/3d-models/low-poly-muzzle-device-set-07f62ec5ca604446848d1a0238b11f1d)",
+   "illustration": {
+    "mesh": "SM_FlashHider_556",
+    "title": "low-poly Muzzle Device Set",
+    "author": "D_U",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/low-poly-muzzle-device-set-07f62ec5ca604446848d1a0238b11f1d",
+    "allowed_3d": true
+   },
+   "web_game_model": {
+    "file": "total-regime game/models/hq/att_hider.glb",
+    "title": "Basic and Cheap Flash Hider",
+    "author": "SergioM (SergioXxM)",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/basic-and-cheap-flash-hider-68826994dea24c82b991e2826c993c84",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "ext": {
+   "in_game_model": null,
+   "picture": "illustration: the game shows no model for this item; rendered with SM_Mag_PMAG40 from \"Low-Poly AR-15 magazines\" by notcplkerry (CC-BY 4.0, https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884)",
+   "illustration": {
+    "mesh": "SM_Mag_PMAG40",
+    "title": "Low-Poly AR-15 magazines",
+    "author": "notcplkerry",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "quick": {
+   "in_game_model": null,
+   "picture": "illustration: the game shows no model for this item; rendered with SM_Mag_HexMag30 from \"Low-Poly AR-15 magazines\" by notcplkerry (CC-BY 4.0, https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884)",
+   "illustration": {
+    "mesh": "SM_Mag_HexMag30",
+    "title": "Low-Poly AR-15 magazines",
+    "author": "notcplkerry",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  },
+  "light": {
+   "in_game_model": null,
+   "picture": "illustration: the game shows no model for this item; rendered with SM_Mag_PMAG20 from \"Low-Poly AR-15 magazines\" by notcplkerry (CC-BY 4.0, https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884)",
+   "illustration": {
+    "mesh": "SM_Mag_PMAG20",
+    "title": "Low-Poly AR-15 magazines",
+    "author": "notcplkerry",
+    "licence": "CC-BY 4.0",
+    "url": "https://sketchfab.com/3d-models/low-poly-ar-15-magazines-72b06590aa4b4b6ab324dc7e0c11b884",
+    "allowed_3d": true
+   },
+   "allowed_3d": false
+  }
+ }
+}

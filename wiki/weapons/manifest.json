@@ -1,0 +1,2083 @@
+{
+ "generated": "2026-11-25",
+ "note": "Gun cards (studio background and transparent), web GLBs, attachment pictures, stats and licences of the 41 guns of the Desert Fortress UE build.",
+ "showcase": [
+  "m4a1",
+  "ak47",
+  "famas",
+  "g36",
+  "p90",
+  "uzi",
+  "mp5",
+  "awm",
+  "psg1",
+  "m82"
+ ],
+ "glb_axes": "glTF: +X = muzzle, +Y = up, metres (real size), origin = bounding box centre; unskinned, one mesh",
+ "card_view": "right side of the gun, muzzle to the right, camera 20 deg toward the muzzle and 9 deg above, 70 mm lens",
+ "guns": {
+  "ak47": {
+   "name": {
+    "en": "AK-47",
+    "tr": "AK-47"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/ak47.png",
+   "card_800": "cards/ak47_800.webp",
+   "card_alpha": "cards/alpha/ak47.png",
+   "card_alpha_800": "cards/alpha/ak47_800.png",
+   "glb": "models/ak47.glb",
+   "glb_tris": 10120,
+   "glb_bytes": 992936,
+   "size_m": [
+    0.88,
+    0.0568,
+    0.2554
+   ],
+   "allowed_3d": true,
+   "credit": "\"AKM\" by mcmxcg (https://sketchfab.com/3d-models/akm-93b9714e15a14dba849d2912e4b8e39d), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 22,
+    "fire_rate": 57,
+    "range": 36,
+    "dps": 69,
+    "control": 88,
+    "mobility": 70,
+    "accuracy": 84,
+    "handling": 69
+   }
+  },
+  "aug_a1": {
+   "name": {
+    "en": "AUG A3",
+    "tr": "AUG A3"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/aug_a1.png",
+   "card_800": "cards/aug_a1_800.webp",
+   "card_alpha": "cards/alpha/aug_a1.png",
+   "card_alpha_800": "cards/alpha/aug_a1_800.png",
+   "glb": "models/aug_a1.glb",
+   "glb_tris": 29100,
+   "glb_bytes": 5553272,
+   "size_m": [
+    0.79,
+    0.1269,
+    0.2858
+   ],
+   "allowed_3d": true,
+   "credit": "\"Steyr Aug\" by quick_loop (https://sketchfab.com/3d-models/steyr-aug-5d6189495ac4406f82eca848bbb6fa95), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 16,
+    "fire_rate": 66,
+    "range": 36,
+    "dps": 65,
+    "control": 97,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 72
+   }
+  },
+  "dp27": {
+   "name": {
+    "en": "DP-27",
+    "tr": "DP-27"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/dp27.png",
+   "card_800": "cards/dp27_800.webp",
+   "card_alpha": "cards/alpha/dp27.png",
+   "card_alpha_800": "cards/alpha/dp27_800.png",
+   "glb": "models/dp27.glb",
+   "glb_tris": 16522,
+   "glb_bytes": 1819552,
+   "size_m": [
+    1.266,
+    0.3704,
+    0.4136
+   ],
+   "allowed_3d": true,
+   "credit": "\"The Degtyaryov machine gun (DP-27/DP-28)\" by TheDevilsEye (https://sketchfab.com/3d-models/the-degtyaryov-machine-gun-dp-27dp-28-a5a4721195964569bba28925769b2569), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 23,
+    "fire_rate": 53,
+    "range": 36,
+    "dps": 67,
+    "control": 92,
+    "mobility": 30,
+    "accuracy": 80,
+    "handling": 25
+   }
+  },
+  "famas": {
+   "name": {
+    "en": "FAMAS",
+    "tr": "FAMAS"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/famas.png",
+   "card_800": "cards/famas_800.webp",
+   "card_alpha": "cards/alpha/famas.png",
+   "card_alpha_800": "cards/alpha/famas_800.png",
+   "glb": "models/famas.glb",
+   "glb_tris": 24010,
+   "glb_bytes": 3373192,
+   "size_m": [
+    0.7571,
+    0.0714,
+    0.2753
+   ],
+   "allowed_3d": true,
+   "credit": "\"FAMAS\" by Frostoise (https://sketchfab.com/3d-models/famas-7d35e14ad8874d148ce9cc46e5765a6b), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 14,
+    "fire_rate": 87,
+    "range": 36,
+    "dps": 83,
+    "control": 95,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 73
+   }
+  },
+  "g36": {
+   "name": {
+    "en": "G36C",
+    "tr": "G36C"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/g36.png",
+   "card_800": "cards/g36_800.webp",
+   "card_alpha": "cards/alpha/g36.png",
+   "card_alpha_800": "cards/alpha/g36_800.png",
+   "glb": "models/g36.glb",
+   "glb_tris": 13352,
+   "glb_bytes": 1245996,
+   "size_m": [
+    0.72,
+    0.0611,
+    0.2857
+   ],
+   "allowed_3d": true,
+   "credit": "\"H&K G36C SMG\" by itsmeskylar (https://sketchfab.com/3d-models/h-k-g36c-smg-c47b2d33ed4d4627bc681f5c3f58e272), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 15,
+    "fire_rate": 70,
+    "range": 36,
+    "dps": 67,
+    "control": 98,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 74
+   }
+  },
+  "galil": {
+   "name": {
+    "en": "Galil",
+    "tr": "Galil"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/galil.png",
+   "card_800": "cards/galil_800.webp",
+   "card_alpha": "cards/alpha/galil.png",
+   "card_alpha_800": "cards/alpha/galil_800.png",
+   "glb": "models/galil.glb",
+   "glb_tris": 17980,
+   "glb_bytes": 1699312,
+   "size_m": [
+    0.98,
+    0.0633,
+    0.2724
+   ],
+   "allowed_3d": true,
+   "credit": "\"IMI Galil weapon\" by m1lotor (https://sketchfab.com/3d-models/imi-galil-weapon-c04464da23af47458533a8a8c74f4b4b), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 18,
+    "fire_rate": 62,
+    "range": 36,
+    "dps": 65,
+    "control": 92,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 72
+   }
+  },
+  "hk416": {
+   "name": {
+    "en": "HK416",
+    "tr": "HK416"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/hk416.png",
+   "card_800": "cards/hk416_800.webp",
+   "card_alpha": "cards/alpha/hk416.png",
+   "card_alpha_800": "cards/alpha/hk416_800.png",
+   "glb": "models/hk416.glb",
+   "glb_tris": 24900,
+   "glb_bytes": 2904632,
+   "size_m": [
+    0.865,
+    0.075,
+    0.2522
+   ],
+   "allowed_3d": true,
+   "credit": "\"HK 416 A7 (free download)\" by r4m (https://sketchfab.com/3d-models/hk-416-a7-free-download-a16768f0ffa24737a4fe324a411cfbd9), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 17,
+    "fire_rate": 73,
+    "range": 36,
+    "dps": 76,
+    "control": 96,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 76
+   }
+  },
+  "m14": {
+   "name": {
+    "en": "M14",
+    "tr": "M14"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/m14.png",
+   "card_800": "cards/m14_800.webp",
+   "card_alpha": "cards/alpha/m14.png",
+   "card_alpha_800": "cards/alpha/m14_800.png",
+   "glb": "models/m14.glb",
+   "glb_tris": 14514,
+   "glb_bytes": 1472684,
+   "size_m": [
+    1.12,
+    0.0734,
+    0.2086
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 29,
+    "fire_rate": 47,
+    "range": 36,
+    "dps": 69,
+    "control": 86,
+    "mobility": 60,
+    "accuracy": 96,
+    "handling": 61
+   }
+  },
+  "m16a4": {
+   "name": {
+    "en": "M16A4",
+    "tr": "M16A4"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/m16a4.png",
+   "card_800": "cards/m16a4_800.webp",
+   "card_alpha": "cards/alpha/m16a4.png",
+   "card_alpha_800": "cards/alpha/m16a4_800.png",
+   "glb": "models/m16a4.glb",
+   "glb_tris": 25383,
+   "glb_bytes": 3703016,
+   "size_m": [
+    0.9982,
+    0.067,
+    0.2575
+   ],
+   "allowed_3d": true,
+   "credit": "\"M16 A4\" by Gintoki1234 (https://sketchfab.com/3d-models/m16-a4-e6e96d6214c24134999691d22933c5c7), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 22,
+    "fire_rate": 76,
+    "range": 36,
+    "dps": 100,
+    "control": 95,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 75
+   }
+  },
+  "m4a1": {
+   "name": {
+    "en": "M4A1",
+    "tr": "M4A1"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/m4a1.png",
+   "card_800": "cards/m4a1_800.webp",
+   "card_alpha": "cards/alpha/m4a1.png",
+   "card_alpha_800": "cards/alpha/m4a1_800.png",
+   "glb": "models/m4a1.glb",
+   "glb_tris": 16511,
+   "glb_bytes": 1583992,
+   "size_m": [
+    0.84,
+    0.0713,
+    0.2381
+   ],
+   "allowed_3d": true,
+   "credit": "\"Assault rifle M4A1\" by bobeer (https://sketchfab.com/3d-models/assault-rifle-m4a1-1b858701dd7142d9b82bbe3fd121a97b), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 15,
+    "fire_rate": 74,
+    "range": 36,
+    "dps": 72,
+    "control": 95,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 76
+   }
+  },
+  "scarl": {
+   "name": {
+    "en": "SCAR-L",
+    "tr": "SCAR-L"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/scarl.png",
+   "card_800": "cards/scarl_800.webp",
+   "card_alpha": "cards/alpha/scarl.png",
+   "card_alpha_800": "cards/alpha/scarl_800.png",
+   "glb": "models/scarl.glb",
+   "glb_tris": 27976,
+   "glb_bytes": 2072500,
+   "size_m": [
+    0.8901,
+    0.0572,
+    0.296
+   ],
+   "allowed_3d": true,
+   "credit": "\"SCAR L\" by Daniel Abeleira (https://sketchfab.com/3d-models/scar-l-48141819356643559761da09dd9e7841), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 19,
+    "fire_rate": 60,
+    "range": 36,
+    "dps": 65,
+    "control": 93,
+    "mobility": 75,
+    "accuracy": 90,
+    "handling": 74
+   }
+  },
+  "tar21": {
+   "name": {
+    "en": "TAR-21",
+    "tr": "TAR-21"
+   },
+   "class": "Assault",
+   "class_name": {
+    "en": "Assault",
+    "tr": "Taarruz"
+   },
+   "card": "cards/tar21.png",
+   "card_800": "cards/tar21_800.webp",
+   "card_alpha": "cards/alpha/tar21.png",
+   "card_alpha_800": "cards/alpha/tar21_800.png",
+   "glb": "models/tar21.glb",
+   "glb_tris": 9731,
+   "glb_bytes": 1054228,
+   "size_m": [
+    0.72,
+    0.0733,
+    0.255
+   ],
+   "allowed_3d": true,
+   "credit": "\"TAR - 21 (Tavor). Black and White.\" by nik_vega (https://sketchfab.com/3d-models/tar-21-tavor-black-and-white-40dc15941e0b456692c83a97bfcd2474), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 16,
+    "fire_rate": 79,
+    "range": 36,
+    "dps": 80,
+    "control": 95,
+    "mobility": 85,
+    "accuracy": 90,
+    "handling": 81
+   }
+  },
+  "bordyukov": {
+   "name": {
+    "en": "Bordyukov SMG",
+    "tr": "Bordyukov Hafif Makineli"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/bordyukov.png",
+   "card_800": "cards/bordyukov_800.webp",
+   "card_alpha": "cards/alpha/bordyukov.png",
+   "card_alpha_800": "cards/alpha/bordyukov_800.png",
+   "glb": "models/bordyukov.glb",
+   "glb_tris": 6231,
+   "glb_bytes": 1047252,
+   "size_m": [
+    0.834,
+    0.0583,
+    0.2869
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 14,
+    "fire_rate": 71,
+    "range": 18,
+    "dps": 65,
+    "control": 99,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 94
+   }
+  },
+  "m1014": {
+   "name": {
+    "en": "M1014",
+    "tr": "M1014"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/m1014.png",
+   "card_800": "cards/m1014_800.webp",
+   "card_alpha": "cards/alpha/m1014.png",
+   "card_alpha_800": "cards/alpha/m1014_800.png",
+   "glb": "models/m1014.glb",
+   "glb_tris": 13949,
+   "glb_bytes": 1696284,
+   "size_m": [
+    1.0,
+    0.0654,
+    0.2087
+   ],
+   "allowed_3d": true,
+   "credit": "\"FPS Benelli M4 Animations\" by ccransh (https://sketchfab.com/3d-models/fps-benelli-m4-animations-225a62190f6043ca975eaa2798ab7e2c), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 79,
+    "fire_rate": 26,
+    "range": 10,
+    "dps": 80,
+    "control": 59,
+    "mobility": 100,
+    "accuracy": 34,
+    "handling": 88
+   }
+  },
+  "mac10": {
+   "name": {
+    "en": "MAC-10",
+    "tr": "MAC-10"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/mac10.png",
+   "card_800": "cards/mac10_800.webp",
+   "card_alpha": "cards/alpha/mac10.png",
+   "card_alpha_800": "cards/alpha/mac10_800.png",
+   "glb": "models/mac10.glb",
+   "glb_tris": 16765,
+   "glb_bytes": 1077136,
+   "size_m": [
+    0.3,
+    0.0605,
+    0.2711
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 10,
+    "fire_rate": 100,
+    "range": 18,
+    "dps": 76,
+    "control": 94,
+    "mobility": 100,
+    "accuracy": 75,
+    "handling": 98
+   }
+  },
+  "mp40": {
+   "name": {
+    "en": "MP40",
+    "tr": "MP40"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/mp40.png",
+   "card_800": "cards/mp40_800.webp",
+   "card_alpha": "cards/alpha/mp40.png",
+   "card_alpha_800": "cards/alpha/mp40_800.png",
+   "glb": "models/mp40.glb",
+   "glb_tris": 14450,
+   "glb_bytes": 1903608,
+   "size_m": [
+    0.83,
+    0.0675,
+    0.2809
+   ],
+   "allowed_3d": true,
+   "credit": "\"MP 40 - WW2 Submachine Gun\" by Moony_State (https://sketchfab.com/3d-models/mp-40-ww2-submachine-gun-7ec7e1f9656e4319b8edae0d785699ad), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 16,
+    "fire_rate": 51,
+    "range": 18,
+    "dps": 47,
+    "control": 100,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 93
+   }
+  },
+  "mp5": {
+   "name": {
+    "en": "MP5",
+    "tr": "MP5"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/mp5.png",
+   "card_800": "cards/mp5_800.webp",
+   "card_alpha": "cards/alpha/mp5.png",
+   "card_alpha_800": "cards/alpha/mp5_800.png",
+   "glb": "models/mp5.glb",
+   "glb_tris": 13944,
+   "glb_bytes": 1196352,
+   "size_m": [
+    0.68,
+    0.0584,
+    0.2661
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 14,
+    "fire_rate": 74,
+    "range": 18,
+    "dps": 66,
+    "control": 98,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 96
+   }
+  },
+  "mp7": {
+   "name": {
+    "en": "MP7A1",
+    "tr": "MP7A1"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/mp7.png",
+   "card_800": "cards/mp7_800.webp",
+   "card_alpha": "cards/alpha/mp7.png",
+   "card_alpha_800": "cards/alpha/mp7_800.png",
+   "glb": "models/mp7.glb",
+   "glb_tris": 16184,
+   "glb_bytes": 1353552,
+   "size_m": [
+    0.42,
+    0.0493,
+    0.2782
+   ],
+   "allowed_3d": true,
+   "credit": "\"H&K MP7 A1\" by Trinitite_Studio (https://sketchfab.com/3d-models/h-k-mp7-a1-27cd4b48fb14451c86adad4c559082d6), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 12,
+    "fire_rate": 87,
+    "range": 18,
+    "dps": 72,
+    "control": 98,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 95
+   }
+  },
+  "p90": {
+   "name": {
+    "en": "P90",
+    "tr": "P90"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/p90.png",
+   "card_800": "cards/p90_800.webp",
+   "card_alpha": "cards/alpha/p90.png",
+   "card_alpha_800": "cards/alpha/p90_800.png",
+   "glb": "models/p90.glb",
+   "glb_tris": 15967,
+   "glb_bytes": 1217140,
+   "size_m": [
+    0.5,
+    0.0682,
+    0.212
+   ],
+   "allowed_3d": true,
+   "credit": "\"P90\" by Rotuma (https://sketchfab.com/3d-models/p90-82d8b9f1e02b48f9b012698dcfa3352b), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 10,
+    "fire_rate": 83,
+    "range": 18,
+    "dps": 61,
+    "control": 99,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 91
+   }
+  },
+  "pps43": {
+   "name": {
+    "en": "PPS-43",
+    "tr": "PPS-43"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/pps43.png",
+   "card_800": "cards/pps43_800.webp",
+   "card_alpha": "cards/alpha/pps43.png",
+   "card_alpha_800": "cards/alpha/pps43_800.png",
+   "glb": "models/pps43.glb",
+   "glb_tris": 6927,
+   "glb_bytes": 903148,
+   "size_m": [
+    0.8515,
+    0.059,
+    0.25
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 16,
+    "fire_rate": 62,
+    "range": 18,
+    "dps": 60,
+    "control": 98,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 93
+   }
+  },
+  "ppsh41": {
+   "name": {
+    "en": "PPSh-41",
+    "tr": "PPSh-41"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/ppsh41.png",
+   "card_800": "cards/ppsh41_800.webp",
+   "card_alpha": "cards/alpha/ppsh41.png",
+   "card_alpha_800": "cards/alpha/ppsh41_800.png",
+   "glb": "models/ppsh41.glb",
+   "glb_tris": 7536,
+   "glb_bytes": 820144,
+   "size_m": [
+    0.843,
+    0.1476,
+    0.2235
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 12,
+    "fire_rate": 91,
+    "range": 18,
+    "dps": 76,
+    "control": 96,
+    "mobility": 85,
+    "accuracy": 77,
+    "handling": 73
+   }
+  },
+  "spectre": {
+   "name": {
+    "en": "Spectre M4",
+    "tr": "Spectre M4"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/spectre.png",
+   "card_800": "cards/spectre_800.webp",
+   "card_alpha": "cards/alpha/spectre.png",
+   "card_alpha_800": "cards/alpha/spectre_800.png",
+   "glb": "models/spectre.glb",
+   "glb_tris": 6057,
+   "glb_bytes": 794380,
+   "size_m": [
+    0.35,
+    0.0573,
+    0.2355
+   ],
+   "allowed_3d": true,
+   "credit": "\"Sites Spectre M4\" by ryukotsuki (https://sketchfab.com/3d-models/sites-spectre-m4-54109f614694426f92517f3900a10f0d), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 12,
+    "fire_rate": 79,
+    "range": 18,
+    "dps": 64,
+    "control": 97,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 92
+   }
+  },
+  "ump45": {
+   "name": {
+    "en": "UMP45",
+    "tr": "UMP45"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/ump45.png",
+   "card_800": "cards/ump45_800.webp",
+   "card_alpha": "cards/alpha/ump45.png",
+   "card_alpha_800": "cards/alpha/ump45_800.png",
+   "glb": "models/ump45.glb",
+   "glb_tris": 16039,
+   "glb_bytes": 1288924,
+   "size_m": [
+    0.69,
+    0.0654,
+    0.3108
+   ],
+   "allowed_3d": true,
+   "credit": "\"UMP_45mm\" by TORI106 (https://sketchfab.com/3d-models/ump-45mm-9f1c89e7d4764ff4bceffb6c67839c7a), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 19,
+    "fire_rate": 57,
+    "range": 18,
+    "dps": 62,
+    "control": 97,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 95
+   }
+  },
+  "uzi": {
+   "name": {
+    "en": "UZI",
+    "tr": "UZI"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/uzi.png",
+   "card_800": "cards/uzi_800.webp",
+   "card_alpha": "cards/alpha/uzi.png",
+   "card_alpha_800": "cards/alpha/uzi_800.png",
+   "glb": "models/uzi.glb",
+   "glb_tris": 13969,
+   "glb_bytes": 1143652,
+   "size_m": [
+    0.47,
+    0.0488,
+    0.2688
+   ],
+   "allowed_3d": true,
+   "credit": "\"UZI\" by Gintoki1234 (https://sketchfab.com/3d-models/uzi-6d997976cf5845b48c6e8b7495b3551b), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 11,
+    "fire_rate": 87,
+    "range": 18,
+    "dps": 68,
+    "control": 96,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 97
+   }
+  },
+  "vector": {
+   "name": {
+    "en": "Vector",
+    "tr": "Vector"
+   },
+   "class": "Medic",
+   "class_name": {
+    "en": "Medic",
+    "tr": "Sıhhiyeci"
+   },
+   "card": "cards/vector.png",
+   "card_800": "cards/vector_800.webp",
+   "card_alpha": "cards/alpha/vector.png",
+   "card_alpha_800": "cards/alpha/vector_800.png",
+   "glb": "models/vector.glb",
+   "glb_tris": 7937,
+   "glb_bytes": 339040,
+   "size_m": [
+    0.62,
+    0.06,
+    0.2982
+   ],
+   "allowed_3d": true,
+   "credit": "\"Kriss Vector Animated( Free)\" by BarcodeGames (https://sketchfab.com/3d-models/kriss-vector-animated-free-54530c888cfd4ae7aab3c3852b229c7e), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 10,
+    "fire_rate": 100,
+    "range": 18,
+    "dps": 76,
+    "control": 99,
+    "mobility": 100,
+    "accuracy": 81,
+    "handling": 97
+   }
+  },
+  "aug_hbar": {
+   "name": {
+    "en": "AUG HBAR",
+    "tr": "AUG HBAR"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/aug_hbar.png",
+   "card_800": "cards/aug_hbar_800.webp",
+   "card_alpha": "cards/alpha/aug_hbar.png",
+   "card_alpha_800": "cards/alpha/aug_hbar_800.png",
+   "glb": "models/aug_hbar.glb",
+   "glb_tris": 29100,
+   "glb_bytes": 5553272,
+   "size_m": [
+    0.79,
+    0.1269,
+    0.2858
+   ],
+   "allowed_3d": true,
+   "credit": "\"Steyr Aug\" by quick_loop (https://sketchfab.com/3d-models/steyr-aug-5d6189495ac4406f82eca848bbb6fa95), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 20,
+    "fire_rate": 62,
+    "range": 100,
+    "dps": 70,
+    "control": 96,
+    "mobility": 50,
+    "accuracy": 87,
+    "handling": 50
+   }
+  },
+  "awm": {
+   "name": {
+    "en": "AWM",
+    "tr": "AWM"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/awm.png",
+   "card_800": "cards/awm_800.webp",
+   "card_alpha": "cards/alpha/awm.png",
+   "card_alpha_800": "cards/alpha/awm_800.png",
+   "glb": "models/awm.glb",
+   "glb_tris": 9170,
+   "glb_bytes": 752748,
+   "size_m": [
+    1.1999,
+    0.1002,
+    0.2571
+   ],
+   "allowed_3d": true,
+   "credit": "\"AWM\" by ErhanMatur (https://sketchfab.com/3d-models/awm-bacc05ad5c074c9daa3aa7ca02766a6c), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 100,
+    "fire_rate": 10,
+    "range": 100,
+    "dps": 13,
+    "control": 30,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 44
+   }
+  },
+  "m82": {
+   "name": {
+    "en": "Barrett M82",
+    "tr": "Barrett M82"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/m82.png",
+   "card_800": "cards/m82_800.webp",
+   "card_alpha": "cards/alpha/m82.png",
+   "card_alpha_800": "cards/alpha/m82_800.png",
+   "glb": "models/m82.glb",
+   "glb_tris": 17986,
+   "glb_bytes": 1899908,
+   "size_m": [
+    1.448,
+    0.3399,
+    0.2869
+   ],
+   "allowed_3d": true,
+   "credit": "\"Barrett-M82 (Optimized)\" by Gintoki1234 (https://sketchfab.com/3d-models/barrett-m82-optimized-af16e974a47e463989311bcda6f51f87), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 91,
+    "fire_rate": 16,
+    "range": 100,
+    "dps": 41,
+    "control": 10,
+    "mobility": 10,
+    "accuracy": 46,
+    "handling": 12
+   }
+  },
+  "svd": {
+   "name": {
+    "en": "Dragunov SVD",
+    "tr": "Dragunov SVD"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/svd.png",
+   "card_800": "cards/svd_800.webp",
+   "card_alpha": "cards/alpha/svd.png",
+   "card_alpha_800": "cards/alpha/svd_800.png",
+   "glb": "models/svd.glb",
+   "glb_tris": 29099,
+   "glb_bytes": 2269792,
+   "size_m": [
+    1.2,
+    0.0447,
+    0.1945
+   ],
+   "allowed_3d": true,
+   "credit": "\"SVD (Dragunov) *Updated*\" by WillyG99 (https://sketchfab.com/3d-models/svd-dragunov-updated-d4a9412275aa4974b146ad8ce9dc5fc2), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 45,
+    "fire_rate": 25,
+    "range": 100,
+    "dps": 44,
+    "control": 62,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 49
+   }
+  },
+  "lever": {
+   "name": {
+    "en": "Lever-Action Rifle",
+    "tr": "Manivelalı Tüfek"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/lever.png",
+   "card_800": "cards/lever_800.webp",
+   "card_alpha": "cards/alpha/lever.png",
+   "card_alpha_800": "cards/alpha/lever_800.png",
+   "glb": "models/lever.glb",
+   "glb_tris": 10141,
+   "glb_bytes": 1050136,
+   "size_m": [
+    0.97,
+    0.0474,
+    0.2197
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 57,
+    "fire_rate": 13,
+    "range": 100,
+    "dps": 16,
+    "control": 55,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 44
+   }
+  },
+  "m24": {
+   "name": {
+    "en": "M24",
+    "tr": "M24"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/m24.png",
+   "card_800": "cards/m24_800.webp",
+   "card_alpha": "cards/alpha/m24.png",
+   "card_alpha_800": "cards/alpha/m24_800.png",
+   "glb": "models/m24.glb",
+   "glb_tris": 12594,
+   "glb_bytes": 1660748,
+   "size_m": [
+    1.09,
+    0.0679,
+    0.1979
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 80,
+    "fire_rate": 11,
+    "range": 100,
+    "dps": 12,
+    "control": 42,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 48
+   }
+  },
+  "mosin": {
+   "name": {
+    "en": "Mosin",
+    "tr": "Mosin"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/mosin.png",
+   "card_800": "cards/mosin_800.webp",
+   "card_alpha": "cards/alpha/mosin.png",
+   "card_alpha_800": "cards/alpha/mosin_800.png",
+   "glb": "models/mosin.glb",
+   "glb_tris": 8538,
+   "glb_bytes": 840692,
+   "size_m": [
+    1.287,
+    0.062,
+    0.1712
+   ],
+   "allowed_3d": true,
+   "credit": "\"Mosin Nagant M91\" by Doinkoloink (https://sketchfab.com/3d-models/mosin-nagant-m91-55c00242c4024307a761a89167e39a7c), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 78,
+    "fire_rate": 10,
+    "range": 100,
+    "dps": 10,
+    "control": 34,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 46
+   }
+  },
+  "psg1": {
+   "name": {
+    "en": "PSG-1",
+    "tr": "PSG-1"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/psg1.png",
+   "card_800": "cards/psg1_800.webp",
+   "card_alpha": "cards/alpha/psg1.png",
+   "card_alpha_800": "cards/alpha/psg1_800.png",
+   "glb": "models/psg1.glb",
+   "glb_tris": 6029,
+   "glb_bytes": 1551452,
+   "size_m": [
+    1.208,
+    0.0599,
+    0.2084
+   ],
+   "allowed_3d": true,
+   "credit": "\"Low-Poly HK PSG 1\" by TastyTony (https://sketchfab.com/3d-models/low-poly-hk-psg-1-bfdb981e99614b0495e1252190264120), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 48,
+    "fire_rate": 23,
+    "range": 100,
+    "dps": 40,
+    "control": 64,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 49
+   }
+  },
+  "ssg69": {
+   "name": {
+    "en": "SSG 69",
+    "tr": "SSG 69"
+   },
+   "class": "Sniper",
+   "class_name": {
+    "en": "Sniper",
+    "tr": "Keskin Nişancı"
+   },
+   "card": "cards/ssg69.png",
+   "card_800": "cards/ssg69_800.webp",
+   "card_alpha": "cards/alpha/ssg69.png",
+   "card_alpha_800": "cards/alpha/ssg69_800.png",
+   "glb": "models/ssg69.glb",
+   "glb_tris": 9987,
+   "glb_bytes": 931560,
+   "size_m": [
+    1.11,
+    0.0606,
+    0.1893
+   ],
+   "allowed_3d": true,
+   "credit": "\"Kar98k Free Model\" by Danya (https://sketchfab.com/3d-models/kar98k-free-model-e88c90c8e203401fa28e8f4ef03e657f), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 73,
+    "fire_rate": 11,
+    "range": 100,
+    "dps": 11,
+    "control": 38,
+    "mobility": 50,
+    "accuracy": 46,
+    "handling": 49
+   }
+  },
+  "m9": {
+   "name": {
+    "en": "Beretta M9",
+    "tr": "Beretta M9"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/m9.png",
+   "card_800": "cards/m9_800.webp",
+   "card_alpha": "cards/alpha/m9.png",
+   "card_alpha_800": "cards/alpha/m9_800.png",
+   "glb": "models/m9.glb",
+   "glb_tris": 8021,
+   "glb_bytes": 883956,
+   "size_m": [
+    0.217,
+    0.0338,
+    0.1406
+   ],
+   "allowed_3d": true,
+   "credit": "\"Beretta Pistol FPS ANIMATION\" by Alexander_Ovelar (https://sketchfab.com/3d-models/beretta-pistol-fps-animation-0313ab1888994c14abeaf444d7af3217), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 17,
+    "fire_rate": 46,
+    "range": 20,
+    "dps": 42,
+    "control": 85,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 99
+   }
+  },
+  "deagle": {
+   "name": {
+    "en": "Desert Eagle",
+    "tr": "Desert Eagle"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/deagle.png",
+   "card_800": "cards/deagle_800.webp",
+   "card_alpha": "cards/alpha/deagle.png",
+   "card_alpha_800": "cards/alpha/deagle_800.png",
+   "glb": "models/deagle.glb",
+   "glb_tris": 12801,
+   "glb_bytes": 4499428,
+   "size_m": [
+    0.27,
+    0.0479,
+    0.1537
+   ],
+   "allowed_3d": true,
+   "credit": "\"Desert Eagle\" by ELIZION (https://sketchfab.com/3d-models/desert-eagle-cabde59f5cf24effaf80536e35d04e95), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 42,
+    "fire_rate": 22,
+    "range": 20,
+    "dps": 32,
+    "control": 55,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 96
+   }
+  },
+  "dual_beretta": {
+   "name": {
+    "en": "Dual Berettas",
+    "tr": "Çift Beretta"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/dual_beretta.png",
+   "card_800": "cards/dual_beretta_800.webp",
+   "card_alpha": "cards/alpha/dual_beretta.png",
+   "card_alpha_800": "cards/alpha/dual_beretta_800.png",
+   "glb": "models/dual_beretta.glb",
+   "glb_tris": 16042,
+   "glb_bytes": 1290744,
+   "size_m": [
+    0.267,
+    0.0838,
+    0.2506
+   ],
+   "allowed_3d": true,
+   "credit": "\"Beretta Pistol FPS ANIMATION\" by Alexander_Ovelar (https://sketchfab.com/3d-models/beretta-pistol-fps-animation-0313ab1888994c14abeaf444d7af3217), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 36,
+    "fire_rate": 39,
+    "range": 20,
+    "dps": 65,
+    "control": 76,
+    "mobility": 100,
+    "accuracy": 85,
+    "handling": 91
+   }
+  },
+  "glock17": {
+   "name": {
+    "en": "Glock 17",
+    "tr": "Glock 17"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/glock17.png",
+   "card_800": "cards/glock17_800.webp",
+   "card_alpha": "cards/alpha/glock17.png",
+   "card_alpha_800": "cards/alpha/glock17_800.png",
+   "glb": "models/glock17.glb",
+   "glb_tris": 4884,
+   "glb_bytes": 718384,
+   "size_m": [
+    0.19,
+    0.0264,
+    0.125
+   ],
+   "allowed_3d": true,
+   "credit": "\"9mm Pistol\" by TORI106 (https://sketchfab.com/3d-models/9mm-pistol-43bc09f5aace4346a8a2b6e1580fc03f), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 14,
+    "fire_rate": 51,
+    "range": 20,
+    "dps": 42,
+    "control": 87,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 100
+   }
+  },
+  "m1911": {
+   "name": {
+    "en": "M1911",
+    "tr": "M1911"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/m1911.png",
+   "card_800": "cards/m1911_800.webp",
+   "card_alpha": "cards/alpha/m1911.png",
+   "card_alpha_800": "cards/alpha/m1911_800.png",
+   "glb": "models/m1911.glb",
+   "glb_tris": 10271,
+   "glb_bytes": 1045280,
+   "size_m": [
+    0.216,
+    0.0344,
+    0.1475
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 23,
+    "fire_rate": 40,
+    "range": 20,
+    "dps": 47,
+    "control": 77,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 98
+   }
+  },
+  "revolver": {
+   "name": {
+    "en": "Revolver",
+    "tr": "Altıpatlar"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/revolver.png",
+   "card_800": "cards/revolver_800.webp",
+   "card_alpha": "cards/alpha/revolver.png",
+   "card_alpha_800": "cards/alpha/revolver_800.png",
+   "glb": "models/revolver.glb",
+   "glb_tris": 6286,
+   "glb_bytes": 874412,
+   "size_m": [
+    0.3,
+    0.0406,
+    0.131
+   ],
+   "allowed_3d": true,
+   "credit": "\"Animated Magnum\" by teenjust500 (https://sketchfab.com/3d-models/animated-magnum-643b9d61ff49407b84ead78eaf815252), CC-BY 4.0",
+   "licence": "CC-BY 4.0",
+   "bars": {
+    "damage": 47,
+    "fire_rate": 19,
+    "range": 20,
+    "dps": 29,
+    "control": 59,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 91
+   }
+  },
+  "tec9": {
+   "name": {
+    "en": "TEC-9",
+    "tr": "TEC-9"
+   },
+   "class": "Sidearm",
+   "class_name": {
+    "en": "Sidearm",
+    "tr": "Tabanca"
+   },
+   "card": "cards/tec9.png",
+   "card_800": "cards/tec9_800.webp",
+   "card_alpha": "cards/alpha/tec9.png",
+   "card_alpha_800": "cards/alpha/tec9_800.png",
+   "glb": "models/tec9.glb",
+   "glb_tris": 11505,
+   "glb_bytes": 1170960,
+   "size_m": [
+    0.31,
+    0.0532,
+    0.2517
+   ],
+   "allowed_3d": true,
+   "credit": null,
+   "licence": "CC0 1.0",
+   "bars": {
+    "damage": 13,
+    "fire_rate": 45,
+    "range": 20,
+    "dps": 32,
+    "control": 88,
+    "mobility": 100,
+    "accuracy": 95,
+    "handling": 97
+   }
+  }
+ },
+ "attachments": {
+  "reddot": {
+   "name": {
+    "en": "Red Dot",
+    "tr": "Kırmızı Nokta"
+   },
+   "slot": "optic",
+   "picture": "attachments/reddot.png",
+   "picture_card": "attachments/reddot_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "reflex": {
+   "name": {
+    "en": "Reflex Sight",
+    "tr": "Refleks Nişangâh"
+   },
+   "slot": "optic",
+   "picture": "attachments/reflex.png",
+   "picture_card": "attachments/reflex_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "holo": {
+   "name": {
+    "en": "Holo Sight",
+    "tr": "Holografik Nişangâh"
+   },
+   "slot": "optic",
+   "picture": "attachments/holo.png",
+   "picture_card": "attachments/holo_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin"
+   ]
+  },
+  "prism": {
+   "name": {
+    "en": "Prism Optic",
+    "tr": "Prizma Optik"
+   },
+   "slot": "optic",
+   "picture": "attachments/prism.png",
+   "picture_card": "attachments/prism_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin"
+   ]
+  },
+  "s5": {
+   "name": {
+    "en": "Marksman 5x",
+    "tr": "Nişancı 5x"
+   },
+   "slot": "optic",
+   "picture": "attachments/s5.png",
+   "picture_card": "attachments/s5_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "lever",
+    "mosin"
+   ]
+  },
+  "s8": {
+   "name": {
+    "en": "Longview 8x",
+    "tr": "Uzak Görüş 8x"
+   },
+   "slot": "optic",
+   "picture": "attachments/s8.png",
+   "picture_card": "attachments/s8_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "lever",
+    "mosin"
+   ]
+  },
+  "s12": {
+   "name": {
+    "en": "Summit 12x",
+    "tr": "Zirve 12x"
+   },
+   "slot": "optic",
+   "picture": "attachments/s12.png",
+   "picture_card": "attachments/s12_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "lever",
+    "mosin"
+   ]
+  },
+  "supp1": {
+   "name": {
+    "en": "Suppressor",
+    "tr": "Susturucu"
+   },
+   "slot": "muzzle",
+   "picture": "attachments/supp1.png",
+   "picture_card": "attachments/supp1_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "supp2": {
+   "name": {
+    "en": "Advanced Suppressor",
+    "tr": "Gelişmiş Susturucu"
+   },
+   "slot": "muzzle",
+   "picture": "attachments/supp2.png",
+   "picture_card": "attachments/supp2_card.webp",
+   "allowed_3d": false,
+   "illustration": false,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "hider": {
+   "name": {
+    "en": "Flash Hider",
+    "tr": "Alev Gizleyici"
+   },
+   "slot": "muzzle",
+   "picture": "attachments/hider.png",
+   "picture_card": "attachments/hider_card.webp",
+   "allowed_3d": false,
+   "illustration": true,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "ext": {
+   "name": {
+    "en": "Extended Mag",
+    "tr": "Uzatılmış Şarjör"
+   },
+   "slot": "mag",
+   "picture": "attachments/ext.png",
+   "picture_card": "attachments/ext_card.webp",
+   "allowed_3d": false,
+   "illustration": true,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "quick": {
+   "name": {
+    "en": "Quick-Swap Mag",
+    "tr": "Hızlı Değişim Şarjörü"
+   },
+   "slot": "mag",
+   "picture": "attachments/quick.png",
+   "picture_card": "attachments/quick_card.webp",
+   "allowed_3d": false,
+   "illustration": true,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  },
+  "light": {
+   "name": {
+    "en": "Light Mag",
+    "tr": "Hafif Şarjör"
+   },
+   "slot": "mag",
+   "picture": "attachments/light.png",
+   "picture_card": "attachments/light_card.webp",
+   "allowed_3d": false,
+   "illustration": true,
+   "guns": [
+    "m4a1",
+    "ak47",
+    "famas",
+    "scarl",
+    "aug_a1",
+    "g36",
+    "m16a4",
+    "galil",
+    "tar21",
+    "dp27",
+    "m14",
+    "hk416",
+    "uzi",
+    "spectre",
+    "mp40",
+    "p90",
+    "mp5",
+    "mp7",
+    "vector",
+    "ump45",
+    "mac10",
+    "pps43",
+    "ppsh41",
+    "bordyukov",
+    "m1014",
+    "ssg69",
+    "psg1",
+    "m82",
+    "awm",
+    "m24",
+    "svd",
+    "aug_hbar",
+    "lever",
+    "mosin",
+    "m1911",
+    "tec9",
+    "glock17",
+    "m9",
+    "dual_beretta",
+    "deagle",
+    "revolver"
+   ]
+  }
+ }
+}
